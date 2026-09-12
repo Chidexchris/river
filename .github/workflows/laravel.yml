@@ -6,44 +6,28 @@ on:
       - main
 
 jobs:
-  Deploy:
+  FTP-Deploy-Action:
     name: Deploy
     runs-on: ubuntu-latest
 
     steps:
       - name: Get latest code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Install lftp
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y lftp
-
-      - name: Deploy files via FTP
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-
-        run: |
-          lftp -c "
-          set ftp:ssl-allow no
-          set ftp:passive-mode true
-          set net:timeout 60
-          set net:max-retries 5
-          set net:reconnect-interval-base 5
-          set net:reconnect-interval-max 30
-
-          open -u $FTP_USERNAME,$FTP_PASSWORD ftp://$FTP_SERVER
-
-          mirror -R \
-            --verbose \
-            --parallel=1 \
-            --continue \
-            --exclude-glob .git/ \
-            --exclude-glob .github/ \
-            --exclude-glob .DS_Store \
-            --exclude-glob node_modules/ \
-            --exclude-glob .env \
-            ./ ./
-          "
+      - name: Sync folders and files to the server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/.DS_Store
+            **/node_modules/**
+            **/.env
