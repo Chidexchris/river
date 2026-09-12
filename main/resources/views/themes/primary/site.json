@@ -1,0 +1,569 @@
+{
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x520"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "register": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Register",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x470"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "email_confirm": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Email Confirmation",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "mobile_confirm": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Mobile Confirmation",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "user_ban": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Ban",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text"
+        }
+    },
+    "2fa_confirm": {
+        "builder": true,
+        "no_selection": true,
+        "name": "2FA Confirmation",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text",
+            "form_text": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "forgot_password": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Forgot Password",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x435"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "code_verification": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Code Verification",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "password_reset": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Password Reset",
+        "content": {
+            "images": {
+                "first_background_image": {
+                    "size": "960x1080"
+                },
+                "second_background_image": {
+                    "size": "1080x1080"
+                },
+                "image": {
+                    "size": "635x485"
+                }
+            },
+            "form_heading": "text",
+            "submit_button_text": "text"
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Instruction",
+        "content": {
+            "verification_required_heading": "text",
+            "verification_required_details": "textarea",
+            "verification_pending_heading": "text",
+            "verification_pending_details": "textarea"
+        }
+    },
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1080"
+                },
+                "video_button_background_image": {
+                    "size": "200x200"
+                },
+                "image": {
+                    "size": "601x602"
+                }
+            },
+            "subtitle": "text",
+            "title": "text",
+            "highlighted_part": "text",
+            "description": "textarea",
+            "youtube_video_id": "text"
+        }
+    },
+    "breadcrumb": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Breadcrumb",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1080"
+                }
+            }
+        }
+    },
+    "about_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "About Us Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "601x662"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text",
+            "description": "textarea-editor",
+            "button_text": "text",
+            "button_icon": "icon"
+        }
+    },
+    "services": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Services Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1280"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": ""
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "why_choose_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Why Choose Us Section",
+        "content": {
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "title": "text",
+            "short_description": "textarea",
+            "modal": true
+        }
+    },
+    "process": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Process Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1080"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "title": "text",
+            "short_description": "textarea",
+            "modal": true
+        }
+    },
+    "features": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Features Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "601x512"
+                },
+                "feature_background_image": {
+                    "size": "415x280"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "title": "text",
+            "short_description": "textarea",
+            "modal": true
+        }
+    },
+    "dps": {
+        "builder": true,
+        "no_selection": true,
+        "name": "DPS Section",
+        "content": {
+            "images": {
+                "card_background": {
+                    "size": "500x610"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        }
+    },
+    "fds": {
+        "builder": true,
+        "no_selection": true,
+        "name": "FDS Section",
+        "content": {
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        }
+    },
+    "ls": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Loan Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "500x610"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        }
+    },
+    "faq": {
+        "builder": true,
+        "no_selection": true,
+        "name": "FAQ",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "601x563"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-editor",
+            "modal": false
+        }
+    },
+    "testimonials": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Testimonials Section",
+        "content": {
+            "images": {
+                "first_vector_image": {
+                    "size": "200x200"
+                },
+                "second_vector_image": {
+                    "size": "200x200"
+                },
+                "background_image": {
+                    "size": "300x284"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "images": {
+                "client_image": {
+                    "size": "635x425"
+                }
+            },
+            "client_name": "text",
+            "client_designation": "text",
+            "client_review": "textarea",
+            "modal": true
+        }
+    },
+    "counters": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Counters Section",
+        "element": {
+            "images": {
+                "icon": {
+                    "size": "200x200"
+                }
+            },
+            "title": "text",
+            "counter_number": "text",
+            "modal": true
+        }
+    },
+    "subscribe": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Subscribe Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x700"
+                }
+            },
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        }
+    },
+    "partner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Partner Section",
+        "content": {
+            "section_first_subtitle": "text",
+            "section_second_subtitle": "text",
+            "section_title": "text",
+            "highlighted_part": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": ""
+                }
+            },
+            "modal": true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x700"
+                }
+            },
+            "footer_text": "textarea",
+            "copyright_text": "text"
+        },
+        "element": {
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "601x652"
+                },
+                "background_image": {
+                    "size": "500x375"
+                }
+            },
+            "latitude": "text",
+            "longitude": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                "size": ""
+                }
+            },
+            "heading": "text",
+            "data": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-editor",
+            "modal": false
+        }
+    },
+    "user_panel": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Panel",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1920x1080"
+                }
+            }
+        }
+    },
+    "user_dashboard": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Dashboard",
+        "content": {
+            "images": {
+                "vector_image": {
+                    "size": "675x110"
+                },
+                "first_background_image": {
+                    "size": "175x125"
+                },
+                "second_background_image": {
+                    "size": "175x125"
+                }
+            }
+        }
+    }
+}

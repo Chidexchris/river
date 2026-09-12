@@ -1,0 +1,46 @@
+@extends('staff.layouts.app')
+
+@section('content')
+    <section class="account bg-img" data-background-image="{{ asset('assets/staff/images/account-bg.png') }}">
+        <div class="account__form">
+            <div class="account__form__container">
+                <div class="account__top d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="{{ route('home') }}" target="_blank">
+                            <img src="{{ getImage(getFilePath('logoFavicon') . '/logo_dark.png') }}" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="account__form__content">
+                    <div class="account__form__thumb">
+                        <img src="{{ asset('assets/staff/images/key.gif') }}" alt="key">
+                    </div>
+                    <h3 class="account__form__title">@lang('Verify Code')</h3>
+                    <p>@lang('Please check your email for the 6-digit verification code')</p>
+                </div>
+                <form action="" method="POST" class="verification-code-form">
+                    @csrf
+                    <input type="hidden" name="email" value="{{ $emailAddress }}">
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            @include('partials.verificationCode')
+                        </div>
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn--base w-100">@lang('Verify')</button>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-between">
+                                <a href="{{ route('staff.forgot.password.form') }}">
+                                    @lang('Send Again?')
+                                </a>
+                                <a href="{{ route('staff.login.form') }}">
+                                    <i class="ti ti-chevrons-left"></i> @lang('Back to Login')
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+@endsection
